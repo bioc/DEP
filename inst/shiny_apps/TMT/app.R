@@ -26,7 +26,7 @@ ui <- shinyUI(
         menuItem("Imputation options",
                  radioButtons("imputation",
                               "Imputation type",
-                              choices = c("man", MSnbase::imputeMethods())[1:9],
+                              choices = c("man", MsCoreUtils::imputeMethods())[1:9],
                               selected = "MinProb"),
                  p(a("Detailed information link",
                      href = "https://www.rdocumentation.org/packages/MSnbase/versions/1.20.7/topics/impute-methods",
