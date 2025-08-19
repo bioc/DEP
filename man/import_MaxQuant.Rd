@@ -4,9 +4,15 @@
 \alias{import_MaxQuant}
 \title{Import from MaxQuant}
 \usage{
-import_MaxQuant(proteins, expdesign, filter = c("Reverse",
-  "Potential.contaminant"), intensities = "LFQ", names = "Gene.names",
-  ids = "Protein.IDs", delim = ";")
+import_MaxQuant(
+  proteins,
+  expdesign,
+  filter = c("Reverse", "Potential.contaminant"),
+  intensities = "LFQ",
+  names = "Gene.names",
+  ids = "Protein.IDs",
+  delim = ";"
+)
 }
 \arguments{
 \item{proteins}{Data.frame,

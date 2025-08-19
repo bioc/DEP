@@ -4,8 +4,16 @@
 \alias{plot_dist}
 \title{Plot Gower's distance matrix}
 \usage{
-plot_dist(dep, significant = TRUE, pal = "YlOrRd", pal_rev = TRUE,
-  indicate = NULL, font_size = 12, plot = TRUE, ...)
+plot_dist(
+  dep,
+  significant = TRUE,
+  pal = "YlOrRd",
+  pal_rev = TRUE,
+  indicate = NULL,
+  font_size = 12,
+  plot = TRUE,
+  ...
+)
 }
 \arguments{
 \item{dep}{SummarizedExperiment,

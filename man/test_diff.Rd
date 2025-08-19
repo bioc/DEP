@@ -4,8 +4,13 @@
 \alias{test_diff}
 \title{Differential enrichment test}
 \usage{
-test_diff(se, type = c("control", "all", "manual"), control = NULL,
-  test = NULL, design_formula = formula(~0 + condition))
+test_diff(
+  se,
+  type = c("control", "all", "manual"),
+  control = NULL,
+  test = NULL,
+  design_formula = formula(~0 + condition)
+)
 }
 \arguments{
 \item{se}{SummarizedExperiment,

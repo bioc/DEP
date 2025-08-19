@@ -4,8 +4,7 @@
 \alias{plot_single}
 \title{Plot values for a protein of interest}
 \usage{
-plot_single(dep, proteins, type = c("contrast", "centered"),
-  plot = TRUE)
+plot_single(dep, proteins, type = c("contrast", "centered"), plot = TRUE)
 }
 \arguments{
 \item{dep}{SummarizedExperiment,

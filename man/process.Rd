@@ -4,8 +4,13 @@
 \alias{process}
 \title{Proteomics data processing}
 \usage{
-process(se, thr = 0, fun = c("man", "bpca", "knn", "QRILC", "MLE",
-  "MinDet", "MinProb", "min", "zero", "mixed", "nbavg"), ...)
+process(
+  se,
+  thr = 0,
+  fun = c("man", "bpca", "knn", "QRILC", "MLE", "MinDet", "MinProb", "min", "zero",
+    "mixed", "nbavg"),
+  ...
+)
 }
 \arguments{
 \item{se}{SummarizedExperiment,
@@ -22,10 +27,10 @@ Sets the threshold for the allowed number of missing values per condition.}
 \item{fun}{"man", "bpca", "knn", "QRILC", "MLE", "MinDet",
 "MinProb", "min", "zero", "mixed" or "nbavg",
 Function used for data imputation based on \code{\link{manual_impute}}
-and \code{\link[MSnbase:impute-methods]{impute}}.}
+and \code{\link[MSnbase:impute]{impute}}.}
 
 \item{...}{Additional arguments for imputation functions as depicted in
-\code{\link{manual_impute}} and \code{\link[MSnbase:impute-methods]{impute}}.}
+\code{\link{manual_impute}} and \code{\link[MSnbase:impute]{impute}}.}
 }
 \value{
 A filtered, normalized and imputed SummarizedExperiment object.

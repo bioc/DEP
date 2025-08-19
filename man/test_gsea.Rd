@@ -4,9 +4,12 @@
 \alias{test_gsea}
 \title{Gene Set Enrichment Analysis}
 \usage{
-test_gsea(dep, databases = c("GO_Molecular_Function_2017b",
-  "GO_Cellular_Component_2017b", "GO_Biological_Process_2017b"),
-  contrasts = TRUE)
+test_gsea(
+  dep,
+  databases = c("GO_Molecular_Function_2017b", "GO_Cellular_Component_2017b",
+    "GO_Biological_Process_2017b"),
+  contrasts = TRUE
+)
 }
 \arguments{
 \item{dep}{SummarizedExperiment,

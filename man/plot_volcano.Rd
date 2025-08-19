@@ -4,8 +4,14 @@
 \alias{plot_volcano}
 \title{Volcano plot}
 \usage{
-plot_volcano(dep, contrast, label_size = 3, add_names = TRUE,
-  adjusted = FALSE, plot = TRUE)
+plot_volcano(
+  dep,
+  contrast,
+  label_size = 3,
+  add_names = TRUE,
+  adjusted = FALSE,
+  plot = TRUE
+)
 }
 \arguments{
 \item{dep}{SummarizedExperiment,

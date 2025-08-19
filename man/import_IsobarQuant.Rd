@@ -4,8 +4,14 @@
 \alias{import_IsobarQuant}
 \title{Import from IsobarQuant}
 \usage{
-import_IsobarQuant(proteins, expdesign, intensities = "signal_sum",
-  names = "gene_name", ids = "protein_id", delim = "[|]")
+import_IsobarQuant(
+  proteins,
+  expdesign,
+  intensities = "signal_sum",
+  names = "gene_name",
+  ids = "protein_id",
+  delim = "[|]"
+)
 }
 \arguments{
 \item{proteins}{Data.frame,
@@ -40,9 +46,9 @@ and converts it into a SummarizedExperiment object.
 \dontrun{
 # Load data
 isobarquant_table <- read.csv("testfile.txt", header = TRUE,
-                              stringsAsFactors = FALSE, sep = "\\t")
+                              stringsAsFactors = FALSE, sep = "\t")
 exp_design <- read.csv("test_experimental_design.txt", header = TRUE,
-                              stringsAsFactors = FALSE, sep = "\\t")
+                              stringsAsFactors = FALSE, sep = "\t")
 # Import data
 se <- import_IsobarQuant(isabarquant_table, exp_design)
 

@@ -4,8 +4,15 @@
 \alias{plot_gsea}
 \title{Plot enriched Gene Sets}
 \usage{
-plot_gsea(gsea_results, number = 10, alpha = 0.05, contrasts = NULL,
-  databases = NULL, nrow = 1, term_size = 8)
+plot_gsea(
+  gsea_results,
+  number = 10,
+  alpha = 0.05,
+  contrasts = NULL,
+  databases = NULL,
+  nrow = 1,
+  term_size = 8
+)
 }
 \arguments{
 \item{gsea_results}{Data.frame,

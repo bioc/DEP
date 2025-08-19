@@ -5,8 +5,13 @@
 \title{Data.frame to SummarizedExperiment object
 conversion using parsing from column names}
 \usage{
-make_se_parse(proteins_unique, columns, mode = c("char", "delim"),
-  chars = 1, sep = "_")
+make_se_parse(
+  proteins_unique,
+  columns,
+  mode = c("char", "delim"),
+  chars = 1,
+  sep = "_"
+)
 }
 \arguments{
 \item{proteins_unique}{Data.frame,

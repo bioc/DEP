@@ -4,8 +4,16 @@
 \alias{meanSdPlot}
 \title{Plot row standard deviations versus row means}
 \usage{
-meanSdPlot(x, ranks = TRUE, xlab = ifelse(ranks, "rank(mean)", "mean"),
-  ylab = "sd", pch, plot = TRUE, bins = 50, ...)
+meanSdPlot(
+  x,
+  ranks = TRUE,
+  xlab = ifelse(ranks, "rank(mean)", "mean"),
+  ylab = "sd",
+  pch,
+  plot = TRUE,
+  bins = 50,
+  ...
+)
 }
 \arguments{
 \item{x}{SummarizedExperiment,

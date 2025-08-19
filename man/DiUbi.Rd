@@ -4,7 +4,8 @@
 \name{DiUbi}
 \alias{DiUbi}
 \title{DiUbi - Ubiquitin interactors for different diubiquitin-linkages (UbIA-MS dataset)}
-\format{A data.frame with 4071 observations and 102 variables:
+\format{
+A data.frame with 4071 observations and 102 variables:
 \describe{
   \item{Protein.IDs}{Uniprot IDs}
   \item{Majority.protein.IDs}{Uniprot IDs of major protein(s) in the protein group}
@@ -21,7 +22,8 @@
   \item{Reverse}{The protein is identified in the decoy database if marked ('+')}
   \item{Potential.contaminant}{The protein is a known contaminant if marked ('+')}
   \item{id}{The protein group ID}
-}}
+}
+}
 \source{
 Zhang, Smits, van Tilburg, et al (2017).
 An interaction landscape of ubiquitin signaling.

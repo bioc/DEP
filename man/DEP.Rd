@@ -2,8 +2,8 @@
 % Please edit documentation in R/DEP.R
 \docType{package}
 \name{DEP}
-\alias{DEP}
 \alias{DEP-package}
+\alias{DEP}
 \title{DEP: A package for Differential Enrichment analysis of Proteomics data.}
 \description{
 This package provides an integrated analysis workflow for robust and
@@ -172,3 +172,12 @@ are provided by the package.
 }
 }
 
+\author{
+\strong{Maintainer}: Arne Smits \email{smits.arne@gmail.com}
+
+Authors:
+\itemize{
+  \item Wolfgang Huber \email{wolfgang.huber@embl.de}
+}
+
+}

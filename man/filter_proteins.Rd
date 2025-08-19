@@ -4,8 +4,12 @@
 \alias{filter_proteins}
 \title{Filter proteins based on missing values}
 \usage{
-filter_proteins(se, type = c("complete", "condition", "fraction"),
-  thr = NULL, min = NULL)
+filter_proteins(
+  se,
+  type = c("complete", "condition", "fraction"),
+  thr = NULL,
+  min = NULL
+)
 }
 \arguments{
 \item{se}{SummarizedExperiment,

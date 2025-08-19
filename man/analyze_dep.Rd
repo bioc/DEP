@@ -4,9 +4,15 @@
 \alias{analyze_dep}
 \title{Differential expression analysis}
 \usage{
-analyze_dep(se, type = c("all", "control", "manual"), control = NULL,
-  alpha = 0.05, lfc = 1, test = NULL, design_formula = formula(~0 +
-  condition))
+analyze_dep(
+  se,
+  type = c("all", "control", "manual"),
+  control = NULL,
+  alpha = 0.05,
+  lfc = 1,
+  test = NULL,
+  design_formula = formula(~0 + condition)
+)
 }
 \arguments{
 \item{se}{SummarizedExperiment,

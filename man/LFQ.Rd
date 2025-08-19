@@ -4,11 +4,20 @@
 \alias{LFQ}
 \title{LFQ workflow}
 \usage{
-LFQ(proteins, expdesign, fun = c("man", "bpca", "knn", "QRILC", "MLE",
-  "MinDet", "MinProb", "min", "zero", "mixed", "nbavg"), type = c("all",
-  "control", "manual"), control = NULL, test = NULL,
-  filter = c("Reverse", "Potential.contaminant"), name = "Gene.names",
-  ids = "Protein.IDs", alpha = 0.05, lfc = 1)
+LFQ(
+  proteins,
+  expdesign,
+  fun = c("man", "bpca", "knn", "QRILC", "MLE", "MinDet", "MinProb", "min", "zero",
+    "mixed", "nbavg"),
+  type = c("all", "control", "manual"),
+  control = NULL,
+  test = NULL,
+  filter = c("Reverse", "Potential.contaminant"),
+  name = "Gene.names",
+  ids = "Protein.IDs",
+  alpha = 0.05,
+  lfc = 1
+)
 }
 \arguments{
 \item{proteins}{Data.frame,
@@ -20,7 +29,7 @@ The experimental design object.}
 \item{fun}{"man", "bpca", "knn", "QRILC", "MLE", "MinDet",
 "MinProb", "min", "zero", "mixed" or "nbavg",
 Function used for data imputation based on \code{\link{manual_impute}}
-and \code{\link[MSnbase:impute-methods]{impute}}.}
+and \code{\link[MSnbase:impute]{impute}}.}
 
 \item{type}{'all', 'control' or 'manual',
 The type of contrasts that will be generated.}

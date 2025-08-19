@@ -5,7 +5,8 @@
 \alias{UbiLength}
 \title{UbiLength - Ubiquitin interactors of different
 linear ubiquitin lengths (UbIA-MS dataset)}
-\format{A data.frame with 3006 observations and 35 variables:
+\format{
+A data.frame with 3006 observations and 35 variables:
 \describe{
   \item{Protein.IDs}{Uniprot IDs}
   \item{Majority.protein.IDs}{Uniprot IDs of major protein(s) in the protein group}
@@ -20,7 +21,8 @@ linear ubiquitin lengths (UbIA-MS dataset)}
   \item{Only.identified.by.site}{The protein is only identified by a modification site if marked ('+')}
   \item{Reverse}{The protein is identified in the decoy database if marked ('+')}
   \item{Potential.contaminant}{The protein is a known contaminant if marked ('+')}
-}}
+}
+}
 \source{
 Zhang, Smits, van Tilburg, et al (2017).
 An interaction landscape of ubiquitin signaling.

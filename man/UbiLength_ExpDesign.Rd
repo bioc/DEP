@@ -4,12 +4,14 @@
 \name{UbiLength_ExpDesign}
 \alias{UbiLength_ExpDesign}
 \title{Experimental design of the UbiLength dataset}
-\format{A data.frame with 12 observations and 3 variables:
+\format{
+A data.frame with 12 observations and 3 variables:
 \describe{
   \item{label}{Label names}
   \item{condition}{Experimental conditions}
   \item{replicate}{Replicate number}
-}}
+}
+}
 \source{
 Zhang, Smits, van Tilburg, et al (2017).
 An interaction landscape of ubiquitin signaling.

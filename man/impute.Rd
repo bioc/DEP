@@ -4,8 +4,12 @@
 \alias{impute}
 \title{Impute missing values}
 \usage{
-impute(se, fun = c("bpca", "knn", "QRILC", "MLE", "MinDet", "MinProb",
-  "man", "min", "zero", "mixed", "nbavg"), ...)
+impute(
+  se,
+  fun = c("bpca", "knn", "QRILC", "MLE", "MinDet", "MinProb", "man", "min", "zero",
+    "mixed", "nbavg"),
+  ...
+)
 }
 \arguments{
 \item{se}{SummarizedExperiment,
@@ -17,10 +21,10 @@ and normalize the data using \code{\link{normalize_vsn}()}.}
 \item{fun}{"bpca", "knn", "QRILC", "MLE", "MinDet",
 "MinProb", "man", "min", "zero", "mixed" or "nbavg",
 Function used for data imputation based on \code{\link{manual_impute}}
-and \code{\link[MSnbase:impute-methods]{impute}}.}
+and \code{\link[MSnbase:impute]{impute}}.}
 
 \item{...}{Additional arguments for imputation functions as depicted in
-\code{\link{manual_impute}} and \code{\link[MSnbase:impute-methods]{impute}}.}
+\code{\link{manual_impute}} and \code{\link[MSnbase:impute]{impute}}.}
 }
 \value{
 An imputed SummarizedExperiment object.

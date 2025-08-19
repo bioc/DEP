@@ -4,8 +4,7 @@
 \alias{plot_all}
 \title{Visualize the results in different types of plots}
 \usage{
-plot_all(dep, plots = c("volcano", "heatmap", "single", "freq",
-  "comparison"))
+plot_all(dep, plots = c("volcano", "heatmap", "single", "freq", "comparison"))
 }
 \arguments{
 \item{dep}{SummarizedExperiment,
