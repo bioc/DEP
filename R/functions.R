@@ -705,9 +705,9 @@ se2msn <- function(se) {
 #' @param fun "bpca", "knn", "QRILC", "MLE", "MinDet",
 #' "MinProb", "man", "min", "zero", "mixed" or "nbavg",
 #' Function used for data imputation based on \code{\link{manual_impute}}
-#' and \code{\link[MSnbase:impute-methods]{impute}}.
+#' and \code{\link[MSnbase:impute]{impute}}.
 #' @param ... Additional arguments for imputation functions as depicted in
-#' \code{\link{manual_impute}} and \code{\link[MSnbase:impute-methods]{impute}}.
+#' \code{\link{manual_impute}} and \code{\link[MSnbase:impute]{impute}}.
 #' @return An imputed SummarizedExperiment object.
 #' @examples
 #' # Load example

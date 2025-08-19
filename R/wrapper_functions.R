@@ -182,9 +182,9 @@ import_IsobarQuant <- function(proteins,
 #' @param fun "man", "bpca", "knn", "QRILC", "MLE", "MinDet",
 #' "MinProb", "min", "zero", "mixed" or "nbavg",
 #' Function used for data imputation based on \code{\link{manual_impute}}
-#' and \code{\link[MSnbase:impute-methods]{impute}}.
+#' and \code{\link[MSnbase:impute]{impute}}.
 #' @param ... Additional arguments for imputation functions as depicted in
-#' \code{\link{manual_impute}} and \code{\link[MSnbase:impute-methods]{impute}}.
+#' \code{\link{manual_impute}} and \code{\link[MSnbase:impute]{impute}}.
 #' @return A filtered, normalized and imputed SummarizedExperiment object.
 #' @examples
 #' # Load datasets
