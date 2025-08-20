@@ -7,8 +7,6 @@
 Fixed broken documentation links to Msnbase impute methods.
 \item
 Fixed crash at the launch of the shiny apps.
-\item
-Allowed more impute methods from Msnbase::impute() to be used in DEP::impute().
 }}
 
 \section{Version 1.1.5}{\itemize{
