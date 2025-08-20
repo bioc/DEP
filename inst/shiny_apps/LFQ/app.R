@@ -31,7 +31,10 @@ ui <- shinyUI(
         menuItem("Imputation options",
                  radioButtons("imputation",
                               "Imputation type",
-                              choices = c("man", MsCoreUtils::imputeMethods())[1:9],
+                              choices = c("bpca", "knn", "QRILC", "MLE",
+                                "MinDet", "MinProb", "man", "min", "zero",
+                                "mixed", "nbavg"
+                              ),
                               selected = "MinProb"),
                  p(a("Detailed information link",
                      href = "https://rformassspectrometry.github.io/MsCoreUtils/reference/imputation.html#imputation-methods",
