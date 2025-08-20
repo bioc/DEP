@@ -733,7 +733,9 @@ se2msn <- function(se) {
 #'
 #' imputed_manual <- impute(norm, fun = "man", shift = 1.8, scale = 0.3)
 #' @export
-impute <- function(se, fun = MsCoreUtils::imputeMethods(), ...) {
+impute <- function(se, fun = c("bpca", "knn", "QRILC", "MLE",
+                               "MinDet", "MinProb", "man", "min", "zero",
+                               "mixed", "nbavg"), ...) {
   # Show error if inputs are not the required classes
   assertthat::assert_that(inherits(se, "SummarizedExperiment"),
                           is.character(fun))
