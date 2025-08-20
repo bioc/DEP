@@ -29,7 +29,7 @@ ui <- shinyUI(
                               choices = c("man", MsCoreUtils::imputeMethods())[1:9],
                               selected = "MinProb"),
                  p(a("Detailed information link",
-                     href = "https://www.rdocumentation.org/packages/MSnbase/versions/1.20.7/topics/impute-methods",
+                     href = "https://rformassspectrometry.github.io/MsCoreUtils/reference/imputation.html#imputation-methods",
                      target="_blank"))
         ),
         actionButton("analyze", "Analyze"),
